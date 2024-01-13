@@ -8,8 +8,8 @@
 }
 
 .contenedor-header {
-  border: solid red;
-  background-color: #1e2326;
+  /* border: solid red; */
+  background-color:rgba(0, 0, 0, 0.795);
   position: fixed;
   width: 100%;
   top: 0;
@@ -52,15 +52,16 @@
 /*  seccion inicial */
 
 .inicio {
+  /* border: solid blueviolet; */
   padding: 20px;
   height: 100vh;
   color: #fff;
   background: linear-gradient(
       to top,
-      rgba(30, 35, 38, 0.8),
+      rgba(0, 0, 0, 0.669),
       rgba(30, 35, 38, 1)
     ),
-    url(./imagenes/904602.jpg);
+    url(https://i.postimg.cc/XNsKq1wm/premium-photo-1661877737564-3dfd7282efcb.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -77,11 +78,12 @@
 
 .inicio .contenido-banner img {
   margin-top: 80px;
-  border: 10px solid #1cb698;
+  border: 10px solid #1cb697c1;
   display: block;
   width: 82%;
   border-radius: 50%;
   margin: auto;
+ 
 }
 
 .inicio .contenido-banner h1 {
@@ -235,9 +237,12 @@
 }
 
 .portafolio .galeria .proyecto img{
-  width: 100%;
+  width: 400px;
+  height: 300px;
   border-radius: 10px;
   display: block;
+  /* border: solid red; */
+  
 }
 .portafolio .galeria .proyecto .overlay{
   position: absolute;
